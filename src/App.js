@@ -5,6 +5,7 @@ import Navbar from './Components/layout/Navbar';
 import Menul from './Components/layout/Menul';
 import Menur from './Components/layout/Menur';
 import Container from './Components/layout/Container';
+import Login from './Components/pages/Login';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
     <Routes>
      
       <Route exact path='/' element={<Home/>} />
-     
+     <Route path='/login' element={<Login/>}/>
     </Routes>
     </Container>
     <Menur/>

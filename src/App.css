@@ -82,3 +82,37 @@ background-color: #ebe9e9;
   padding-bottom: 5px;
   border-bottom: 1px solid #c1bebe;
 }
+
+#hh{
+  background-color: #f0f2f5;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#kk{
+  width: 100%;
+  outline: none;
+  border: 1px solid #dddfe2;
+ height: 50px;
+  border-radius: 5px;
+  color:#dddfe2;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#oo{
+
+}
+#rt{
+  border-bottom:1px solid #dddfe2;
+  padding-bottom: 5px;
+}
+#dc{
+  font-size: 20px;
+}
